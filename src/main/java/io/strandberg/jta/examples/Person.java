@@ -1,4 +1,4 @@
-package com.npstrandberg.jta.examples;
+package io.strandberg.jta.examples;
 
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
