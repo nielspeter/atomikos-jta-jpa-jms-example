@@ -14,10 +14,10 @@ repositories {
 dependencies {
 
     compile "org.springframework:spring-context:${springVersion}"
-    compile "org.springframework:spring-test:${springVersion}"
     compile "org.springframework:spring-tx:${springVersion}"
     compile "org.springframework:spring-jms:${springVersion}"
     compile "org.springframework:spring-orm:${springVersion}"
+    testCompile "org.springframework:spring-test:${springVersion}"
     compile "org.springframework.data:spring-data-jpa:1.7.2.RELEASE"
 
     compile "com.atomikos:transactions-jms:${atomikosVersion}"
